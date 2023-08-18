@@ -1,5 +1,4 @@
-import './Navbar.css'
-
+import './Navbar.css';
 
 const Navbar = () => {
   const NavLi = ["Home", "About", "Skills", "Projects", "Contact"];
@@ -15,7 +14,7 @@ const Navbar = () => {
               <li key={item}>{item}</li>
             ))}
           </ul>
-          <button>Resume</button>
+          <button className='login'>Resume</button>
         </nav>
       </header>
     </>
