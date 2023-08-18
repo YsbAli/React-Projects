@@ -27,6 +27,11 @@ li {
   height: 25px;
 }
 
+/* li:nth-child(1){
+  background-color: red;
+  color: white;
+  border-radius:5px ;
+} */
 li:hover {
   background-color: red;
   color: white;

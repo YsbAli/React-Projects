@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
 
 :root {
   --red: #d01c28;
@@ -41,7 +41,7 @@ li{
   color: white;
   border-radius:5px ;
 } */
-
+/* 
 li:hover{
   background-color: red;
   color: white;
@@ -56,4 +56,135 @@ button {
   color: white;
   background:var(--red);
   font-weight: 500;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+
+:root {
+  --red: #d01c28;
+  --grey: #2e2e2e;
 }
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+li {
+  padding: 6px 16px;
+  height: 25px;
+}
+
+li:hover {
+  background-color: var(--red);
+  color: white;
+}
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  height: 32px;
+  color: white;
+  background: var(--red);
+  font-weight: 500;
+}
+
+/* Nav Ends */
+
+/* HeroSection Start */
+
+.hero {
+  /* border: 3px solid red; */
+  display: flex;
+  align-items: center;
+  width: 1125px;
+  margin: 30px auto;
+  height: auto 613px;
+  /* top: 152px;
+  left: 157px; */
+}
+
+.hero-content {
+  /* border: 1px solid grey; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+}
+.tagline{
+  /* border: 1px solid red; */
+  width: 590px;
+  height: 306px;
+  
+}
+  
+
+
+.hero-content h1 {
+  /* font-weight: 800;
+  font-size: 102px;
+  line-height: 100px; */
+  font-family: Poppins;
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.plan-text {
+  font-weight: 600;
+  color: var(--grey);
+  max-width: 400px;
+}
+.hero-btns {
+  display: flex;
+  gap: 40px;
+}
+.category {
+  background-color: transparent;
+  color: var(--grey);
+  border: 1px solid grey;
+}
+
+.shop p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-image img {
+  width: 530px;
+  height: 487.061767578125px;
+  /* border: 1px solid black; */
+  transition: transform 0.3s;
+}
+.hero-image img:hover {
+  transform: scale(1.1);
+}
+
+/* Hero Section Ends */

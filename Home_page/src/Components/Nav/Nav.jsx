@@ -1,11 +1,11 @@
-import './Nav.css'
+// import './Nav.css'
 
 function Nav() {
   const NavData = ["Home", "About", "Projects", "Menu", "Contact"];
   return (
    <>
     <header>
-      <nav>
+      <nav className='container'>
         <div className="logo">
           <img src="/Assets/brand_logo.png" alt="logo" />
         </div>

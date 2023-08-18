@@ -12,18 +12,17 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-header {
-  width: 1440px;
-  height: 72px;
+.container {
+  width: 1280px;
+  margin: 0 auto;
 }
+
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1280px;
   height: 72px;
-  margin: 0 auto;
 }
 
 ul {
@@ -31,22 +30,16 @@ ul {
   list-style: none;
   gap: 24px;
 }
+
 li{
   padding: 6px 16px;
   height: 25px;
 }
 
-/* li:nth-child(1){
-  background-color: red;
-  color: white;
-  border-radius:5px ;
-} */
 
 li:hover{
-  background-color: red;
+  background-color: var(--red);
   color: white;
-  border-radius:5px ;
-
 }
 
 button {
