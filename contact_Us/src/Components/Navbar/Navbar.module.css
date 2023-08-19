@@ -1,0 +1,36 @@
+
+.Navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    height: 72px;
+  }
+  
+  .logo{
+    margin-left: 91px;
+    transition: 2s;
+  }
+  
+  .logo:hover{
+  transform: scale(1.1);
+  }
+  ul{
+    margin-right: 81px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+    font-weight: bold;
+    /* font-weight: 500; */
+  }
+  
+  ul li{
+    padding: 6px 16px;
+  }
+  
+  ul li:hover{
+    color: white;
+    background: teal;
+    border-radius: 5px;
+  }
