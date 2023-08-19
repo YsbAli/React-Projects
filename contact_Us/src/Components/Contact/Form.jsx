@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function Form() {
   return (
+    
     <section className={styles.container}>
       <div className={styles.contact_form}>
         <div className={styles.big_btns}>
