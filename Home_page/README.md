@@ -58,8 +58,23 @@ To run the application open index.html in the live server.
 
 <br/>
 
-© 2023 Yousub Ali
+## Follow me - **[Yousub Ali](https://github.com/YsbAli)**
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+
+## Contributing
+
+Contributions are welcome! If you have ideas for new projects, improvements, or bug fixes, please check the [Contributing Guidelines](CONTRIBUTING.md).
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
+
+Feel free to explore, learn, and contribute to the world of React.js development!
+
+
+
+
